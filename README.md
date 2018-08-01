@@ -5,7 +5,7 @@ Important note: we did not have time to finish, so we just have have a jupyter n
 The idea is based on two methods, like our solution 1: deep neural nets and [evolution strategies](https://blog.openai.com/evolution-strategies/).  
 Here, the neural net output a list of numbers corresponding to all numbers that can be tuned to modify the circuit.  
   
-To train the network, evolution strategies are used. In a few words, noise is added to the parameters of the neural network. Then, the net produces a given number of sequences to solve the given problem, which are scored according to the library provided for the BDAthlon. This score is then given back to the network to modifiy its parameters such that the score is increased.  
+To train the network, evolution strategies are used. In a few words, noise is added to the parameters of the neural network. Then, the net produces a given list of numbers to solve the given problem, which are scored according to the library provided for the BDAthlon. This score is then given back to the network to modifiy its parameters such that the score is increased.  
   
 The Python library [Keras](https://keras.io/) is used to create the neural net and [evostra](https://github.com/alirezamika/evostra) for the evolution strategies.  
 
