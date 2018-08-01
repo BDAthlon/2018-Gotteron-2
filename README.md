@@ -1,5 +1,5 @@
-# Developement solution to the second project
-Important note: we did not have time to finish, so we just have have a jupyter notebook with the developement of our idea.
+# Development solution to the second project
+Important note: we did not have time to finish, so we just have have a jupyter notebook with the development of our idea.
 
 ### Solution: Evolution Strategies with Neural networks
 The idea is based on two methods, like our solution 1: deep neural nets and [evolution strategies](https://blog.openai.com/evolution-strategies/).  
